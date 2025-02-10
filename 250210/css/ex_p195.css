@@ -1,0 +1,44 @@
+div {
+  border: 3px solid gray;
+}
+
+div {
+  padding: 20px;
+}
+
+.bluename {
+  color: blue;
+}
+
+.brownname {
+  color: brown;
+  
+  font-weight: bold;
+}
+
+.backname {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.s3>div>.backname {
+  text-decoration: underline;
+}
+
+.s1 > div > p {
+  font-size: 12px;
+  font-family: Arial;
+  margin-left: 20px;
+}
+
+.s2 > div > p.blue {
+  color: red;
+}
+
+.s3 {
+  margin: auto;
+  width: 800px;
+  padding: 5px;
+  border: 1px dotted green;
+}
