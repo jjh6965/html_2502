@@ -1,0 +1,36 @@
+
+section{
+    border: 1px solid red;
+}
+
+.div1 {
+  width: 300px;
+  margin: auto;
+  background-color: #FFF4A3;
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:right;
+}
+
+.inline {
+  width:33%;  
+  display:inline-block;
+}
+
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width:33%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
