@@ -1,0 +1,24 @@
+section{
+    border: 1px solid rebeccapurple;
+}
+
+.s1 > h1 {
+  font-size: 3em;
+}
+
+.s1 > p {
+    font-size: 1em;
+}
+
+.s2p {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.s3p {
+    font-style: italic;
+}
+
+.s4p {
+    font : italic 12px/50px 돋움;
+}
