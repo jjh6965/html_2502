@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe</title>
+    <link rel="stylesheet" href="./css/index10_iframe.css" />
+  </head>
+
+  <body>
+    <section class="s1">
+      <h2>HTML Iframes</h2>
+      <p>
+        You can use the height and width attributes to specify the size of the
+        iframe:
+      </p>
+
+      <iframe src="demo_iframe.html" title="section1"></iframe>
+    </section>
+
+    <section class="s2">
+      <h2>Remove the Iframe Border</h2>
+      <p>To remove the default border of the iframe, use CSS:</p>
+
+      <iframe src="demo_iframe.html" title="section2"></iframe>
+    </section>
+
+    <section class="s3">
+      <h2>Iframe - Target for a Link</h2>
+
+      <iframe
+        src="demo_iframe.html"
+        name="coupang"
+        height="300px"
+        width="100%"
+        title="coupang"
+      ></iframe>
+
+      <p>
+        <a href="https://www.coupang.com/" target="coupang">coupang</a>
+      </p>
+
+      <p>
+        When the target attribute of a link matches the name of an iframe, the
+        link will open in the iframe.
+      </p>
+    </section>
+  </body>
+</html>
