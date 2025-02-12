@@ -1,0 +1,23 @@
+.s1 {
+  background-color: lightgrey;
+  width: 500px;
+  border: 15px solid yellow;
+  padding: 30px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+img,
+.s2 {
+  padding-left: 20px;
+}
+
+.d2 {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
