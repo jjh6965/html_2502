@@ -1,0 +1,98 @@
+.d1 > p {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  outline: green solid 10px;
+}
+
+.d2 > p {
+  outline-color: blueviolet;
+}
+
+.p1 {
+  outline-style: dotted;
+}
+
+.p2 {
+  outline-style: dashed;
+}
+
+.p3 {
+  outline-style: solid;
+}
+
+.p4 {
+  outline-style: double;
+}
+
+.p5 {
+  outline-style: groove;
+}
+
+.p6 {
+  outline-style: ridge;
+}
+
+.p7 {
+  outline-style: inset;
+}
+
+.p8 {
+  outline-style: outset;
+}
+
+.d3 > .p1 {
+  border: 1px solid black;
+  outline: red dotted thin;
+}
+
+.d3 > .p2 {
+  border: 1px solid black;
+  outline: orangered dotted medium;
+}
+
+.d3 > .p3 {
+  border: 1px solid black;
+  outline: yellow dotted thick;
+}
+.d3 > .p4 {
+  border: 1px solid black;
+  outline: green dotted 5px;
+}
+
+.d4 > .pp1 {
+  outline: blue solid 5px;
+}
+
+.d4 > .pp2 {
+  outline: purple dotted 5px;
+}
+
+.d4 > .pp3 {
+  outline: black outset 5px;
+}
+
+.d5 > .ppp1 {
+  outline: #bbbbbb dashed 5px;
+}
+
+.d5 > .ppp2 {
+  outline: #0000ff dotted 5px;
+}
+
+.d5 > .ppp3 {
+  outline: #ff0000 outset 5px;
+}
+
+div {
+  background-color: orange;
+}
+
+ .d6p {
+  margin: 50px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
