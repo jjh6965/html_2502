@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image</title>
+
+
+
+  </head>
+
+  <body>
+    <section class="s1">
+      <h2>The picture Element</h2>
+      <!-- <div>
+        <script>
+        document.getElementById("b_with").innerHTML ="브라우저 넓이 : " + window.innerWidth + "px";
+      
+        window.addEventListener("resize",function(){
+          document.getElementById("b_width").innerHTML="브라우저 넓이" + window.innerWidth + "px"
+        });
+      </script> 
+      </div> -->
+
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/img_car.jpg"/>
+        <source media="(min-width: 300px)" srcset="./images/img_food1.jpg" />
+        <img src="./images/img_girl.jpg" style="width:auto;"  />
+      </picture>
+
+      <p>
+        Resize the browser to see different versions of the picture loading at
+        different viewport sizes. The browser looks for the first source element
+        where the media query matches the user's current viewport width, and
+        fetches the image specified in the srcset attribute.
+      </p>
+
+      <p>
+        The img element is required as the last child tag of the picture
+        declaration block. The img element is used to provide backward
+        compatibility for browsers that do not support the picture element, or
+        if none of the source tags matched.
+      </p>
+    </section>
+ 
+  </body>
+</html>
