@@ -1,0 +1,45 @@
+section {
+  width: 500px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.s1 {
+  background: blue;
+  background: -webkit-linear-gradient(left top, blue, white);
+  background: -moz-repeating-linear-gradient(right bottom, blue, white);
+  background: -o-linear-gradient(right bottom, blue, white);
+  background: linear-gradient(to right bottom, blue, white);
+}
+
+.s2 {
+  background: #ff0000;
+  background: -webkit-linear-gradient(45deg, #ff0000, #ffffff);
+  background: -moz-repeating-linear-gradient(45deg, #ff0000, #ffffff);
+  background: -o-linear-gradient(45deg, #ff0000, #ffffff);
+  background: linear-gradient(45deg, #ff0000, #ffffff);
+}
+
+.s3 {
+  background: #06f;
+  background: -webkit-linear-gradient(top, #06f, white 30%, #06f);
+  background: -moz-repeating-linear-gradient(bottom, #06f, white 30%, #06f);
+  background: -o-linear-gradient(bottom, #06f, white 30%, #06f);
+  background: linear-gradient(to bottom, #06f, white 30%, #06f);
+}
+
+.s4 {
+  background: red;
+  background: -webkit-radial-gradient(white, yellow, red);
+  background: -moz-radial-linear-gradient(white, yellow, red);
+  background: -o-radial-gradient(bwhite, yellow, red);
+  background: radial-gradient(white, yellow, red);
+}
+
+.s5 {
+  background: red;
+  background: -webkit-radial-gradient(white, yellow, red);
+  background: -moz-radial-linear-gradient(white, yellow, red);
+  background: -o-radial-gradient(bwhite, yellow, red);
+  background: radial-gradient(circle, white, yellow, red);
+}
