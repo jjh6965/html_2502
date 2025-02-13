@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>textarea</title>
+
+    <style>
+      form fieldset {
+        margin: 30px 0;
+      }
+
+      form legend{
+        font-
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend class="leg">로그인</legend>
+        <label for="login">아이디</label>
+        <input type="text" id="login" name="login" />
+
+        <label for="login">비밀번호</label>
+        <input type="text" id="login" name="login" />
+
+        <input type="submit" value="로그인" />
+      </fieldset>
+
+      <fieldset>
+        <legend>가입하기</legend>
+        <ul>
+          <li><label for="id">아이디</label></li>
+          <input type="text" name="id" id="id" />
+          <li><label for="pwd1">비밀번호</label></li>
+          <input type="password" name="pwd1" id="pwd1" />
+          <li><label for="pw2">비밀번호 확인</label></li>
+          <input type="password" name="pw2" id="pw2" />
+          <li><label for="name">이름</label></li>
+          <input type="text" name="name" id="name" />
+          <li><label for="email">메일주소</label></li>
+          <input type="email" name="email" id="email" />
+          <li><label for="phone">전화번호</label></li>
+          <input type="tel" name="phone" id="phone" />
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>이지스퍼블리싱</legend>
+        <textarea name="intro" cols="60"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <input type="submit" value="가입하기" />
+        <input type="reset" value="다시쓰기" />
+      </fieldset>
+    </form>
+  </body>
+</html>

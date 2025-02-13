@@ -1,0 +1,226 @@
+body { 
+  background-color: black;
+}
+section{
+    border: 1px solid palegreen;
+    background-color: rgb(37, 177, 9);
+    margin: 20px;
+    padding : 0px 20px 0px 20px;
+}
+
+h1 {
+  color: rgb(236, 183, 9);
+}
+/* 1.Text color */
+.s1 > h1 {
+  color: green;
+}
+.s1 > p,
+.s2 > .p2 {
+  color: blue;
+}
+/* 2.Text background */
+.s2 > h1 {
+  background-color: black;
+  color: white;
+}
+
+.s2 > .pb2 {
+  background-color: blue;
+  color: white;
+}
+
+.s3 > .m1 {
+  text-align: center;
+  color: black;
+}
+
+.s3 > h2 {
+  text-align: left;
+}
+
+.s3 > h3 {
+  text-align: right;
+}
+
+.s4 > div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+  padding: 20px;
+  overflow:clip;
+  outline: dashed red;
+}
+
+.s4{
+  padding-bottom: 50px;
+}
+
+/* 5.마지막 줄 정렬 */
+.t1 {
+  text-align-last: right;
+}
+.t2 {
+  text-align-last: center;
+}
+.t3 {
+  text-align-last: justify;
+}
+
+.s6 > p.ex1 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+img.a {
+  vertical-align: baseline;
+}
+img.b {
+  vertical-align: text-top;
+}
+img.c {
+  vertical-align: text-bottom;
+}
+img.d {
+  vertical-align: sub;
+}
+img.e {
+  vertical-align: super;
+}
+
+.overl {
+  text-decoration-line: overline;
+}
+.lineth {
+  text-decoration-line: line-through;
+}
+.underl {
+  text-decoration-line: overline;
+}
+.addl {
+  text-decoration: overline underline line-through;
+}
+
+.overl1 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+.lineth1 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+.underl1 {
+  text-decoration-line: overline;
+  text-decoration-color: green;
+}
+.addl1 {
+  text-decoration: overline underline line-through;
+  text-decoration-color: blueviolet;
+}
+
+.s10 > h1 {
+  text-decoration-line: underline;
+  
+}
+
+.s10 > h2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.s10 > h3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.s10 > .p1 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+}
+
+.s10 > .p2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.s10 > .p3 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+}
+
+.s11 > h1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;
+}
+
+.s11 > h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.s11 > h3 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 50%;
+}
+
+.s11 > p {
+  text-decoration-style: double;
+  text-decoration-color: red;
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;
+}
+
+.s12 > p > a {
+  text-decoration: none;
+}
+
+.s13 > .p1 {
+  text-transform: uppercase;
+}
+
+.s13 > .p2 {
+  text-transform: lowercase;
+}
+
+.s13 > .p3 {
+  text-transform: capitalize;
+}
+
+.s14 > p {
+  text-indent: 50px;
+}
+
+.s15 > h2 {
+  letter-spacing: 5px;
+}
+
+.s15 > h3 {
+  letter-spacing: -2px;
+}
+
+.s16 > .p1 {
+  line-height: 0.7;
+}
+
+.s16 > .p2 {
+  line-height: 1.8;
+}
+
+.s17 > .shad1 {
+  text-shadow: 2px 2px;
+}
+.s17 > .shad2 {
+  text-shadow: 2px 2px red;
+}
+.s17 > .shad3 {
+  text-shadow: 2px 2px 10px red;
+}
+.s17 > .shad4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.s17 > .shad5 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
