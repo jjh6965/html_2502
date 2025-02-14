@@ -43,3 +43,19 @@ section {
   background: -o-radial-gradient(bwhite, yellow, red);
   background: radial-gradient(circle, white, yellow, red);
 }
+
+.s5 {
+    background: blue;
+    background: -webkit-radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: -moz-radial-linear-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: -o-radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: radial-gradient(circle closest-side at 10% 10%,circle,white,blue);
+  }
+
+  .s6{
+    background: red;
+    background: -webkit-repeating-linear-gradient(yellow,red 20px);
+    background: -moz-repeating-linear-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: -o-repeating-linear-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: repeating-linear-gradient(circle closest-side at 10% 10%,circle,white,blue);
+  }
