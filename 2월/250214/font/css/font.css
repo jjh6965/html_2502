@@ -1,0 +1,166 @@
+body {
+  color: rgb(13, 57, 177);
+  background: rgb(216, 175, 120);
+}
+
+section {
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px double grey;
+  width: 600px;
+  margin: 10px auto 0px auto;
+  background-color: rgb(163, 250, 168);
+}
+
+p {
+    padding-left: 20px;
+}
+
+.s1 > .p1 {
+  font-family: "amatic sc", Times, red serif;
+}
+.s1 > .p2 {
+  font-family: Arial, Helvetica, black sans-serif;
+}
+.s1 > .p3 {
+  font-family: "Lucida console", "Courier New", monospace;
+}
+
+.s2 > p {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.s3 > p {
+  font-family: Arial, sans-serif;
+}
+
+.s4 > p {
+  font-family: Verdana, sans-serif;
+}
+
+.s5 > p {
+  font-family: Tahoma, sans-serif;
+}
+
+.s6 > p {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.s7 > p {
+  font-family: "Times New Roman", sans-serif;
+}
+
+.s8 > p {
+  font-family: "Times New Roman", serif;
+}
+
+.s9 > p {
+  font-family: Georgia, serif;
+}
+
+.s10 > p {
+  font-family: Garamond, serif;
+}
+
+.s11 > p {
+  font-family: "Courier New", monospace;
+}
+
+.s12 > p {
+  font-family: "Brush Script MT", cursive;
+}
+
+.s13 > p {
+  font-family: "Courier New", Courier, monospace;
+}
+.s15 > p {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.s16 > p1 {
+  font-style: normal;
+}
+
+.s16 > .p2 {
+  font-style: italic;
+}
+
+.s16 > .p3 {
+  font-style: oblique;
+}
+.s17 > .p1 {
+  font-weight: normal;
+}
+.s17 > .p2 {
+  font-weight: lighter;
+}
+.s17 > .p3 {
+  font-weight: bold;
+}
+.s17 > .p4 {
+  font-weight: 900;
+}
+.s18 > .p1 {
+  font-variant: normal;
+}
+.s18 > .p2 {
+  font-variant: small-caps;
+}
+
+.s19 > h2 {
+  font-size: 40px;
+}
+.s19 > h3 {
+  font-size: 30px;
+}
+.s19 > p {
+  font-size: 14px;
+}
+
+/* 구글 폰트는 링크 따고 css에 폰트 박고 */
+.s20 > .p2 {
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.s21 {
+  font-family: "Audiowide", sans-serif;
+}
+
+.s22 > div {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+.s22 > div > h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+  overflow: auto;
+}
+
+div{
+    padding: 10px;
+}
+
+.s23 {
+    font-family: Garamond, serif;
+    font-size: 16px;  
+  }
+  
+.s23 > h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 46px;  
+  }
+
+.s24 > h1 {
+    font-family: Lora, serif;
+    font-size: 30px;  
+  }
+  
+.s24 > p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 10px; }
