@@ -1,0 +1,327 @@
+section {
+  border: 5px solid pink;
+  background: gray;
+  padding: 10px;
+  margin: 20px;
+}
+
+.s1 {
+  border: 5px solid pink;
+}
+.s1 > h1,
+.s1 > h2 {
+  border: 5px dotted red;
+  margin: 20px;
+}
+.s1 > h3 {
+  margin: 20px;
+}
+.s1 > h3 > span {
+  border: 5px dotted red;
+}
+
+.s2 {
+  border: 5px solid pink;
+}
+.s2 > .div1 {
+  height: 200px;
+  width: 400px;
+  border: 5px dotted rgb(255, 72, 0);
+  background: yellow;
+  margin: 20px;
+}
+.s2 > .div2 {
+  height: 200px;
+  width: 80%;
+  border: 5px dotted rgb(255, 72, 0);
+  background: greenyellow;
+  margin: 20px;
+}
+
+/* 3.div box에 적용. */
+.s3 > div {
+  display: inline;
+  margin: 10px;
+}
+
+.s4 > div {
+  display: block;
+  margin: 10px;
+}
+
+.s5 > div > ul > li {
+  display: inline;
+  text-decoration-line: overline;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px;
+  text-align: center;
+  margin: 20px;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.s5 > div > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.s6 > div > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.s6 > div > ul > li > a {
+  text-decoration-line: none;
+  color: white;
+}
+.s6 > .d1 {
+  background-color: white;
+  padding: 10px;
+  
+}
+
+
+.s7 > .d1 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.s7 > .d2 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.s7 > .d3 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.s7 > div {
+  display: inline-block;
+}
+
+.s8 > .d1 {
+  border: 3px solid black;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+}
+.s8 > .d2 {
+  border: 3px solid black;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border-style: dotted;
+}
+.s8 > .d3 {
+  border: 3px solid black;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border-style: dashed;
+}
+
+.s8 > div {
+  display: inline-block;
+}
+
+.s9 > .d1 {
+  border: 3px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-width: 2px;
+}
+.s9 > .d2 {
+  border: 3px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-width: thick thin;
+}
+.s9 > .d3 {
+  border: 3px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-width: 5px 10px 15px 20px;
+}
+
+.s9 > div {
+  display: inline-block;
+}
+
+.s10 > .d1 {
+  border: 3px solid black;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border-style: dotted;
+  border-color: blueviolet;
+}
+.s10 > .d2 {
+  border: 3px solid black;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border-style: dotted;
+  border-color: orange;
+}
+.s10 > div {
+  display: inline-block;
+}
+
+.s11 > p {
+  border: 3px dotted black;
+  padding: 20px;
+}
+
+.s11 > h1 {
+  border-bottom: 3px solid gray;
+}
+
+.s12 > .d2 {
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+}
+.s12 > div {
+  display: inline-block;
+  border: 3px solid black;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.s13 > .d1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 3px solid black;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.s14 > .d1 {
+  border: 3px solid black;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 20px;
+  border-radius: 20px 70px 20px 70px;
+}
+
+.s15 > .d1 {
+  border-top-left-radius: 100px 50px;
+}
+.s15 > .d2 {
+  border-bottom-right-radius: 100px 50px;
+}
+.s15 > .d3 {
+  border-top-right-radius: 50px 50px;
+}
+.s15 > div {
+  display: inline-block;
+  border: 3px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+.s16 > .d1 {
+  box-shadow: 2px -2px 5px 0px red;
+}
+
+.s16 > .d2 {
+  box-shadow: 5px 5px 15px 5px blue;
+}
+
+.s16 > div {
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.s17 > .d1 {
+  height: 400px;
+  width: 400px;
+  border: 3px solid red;
+  border-radius: 100%;
+  background-color: yellow;
+  margin: 20px;
+}
+
+.s18 > div {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+}
+
+.s18 > .d1 {
+  margin: 30px 50px 30px 50px;
+}
+.s18 > .d2 {
+  margin: 30px 50px;
+}
+.s18 > .d3 {
+  margin: 50px;
+}
+.s18 > .d4 {
+  margin: 30px 5px 10px 5px;
+}
+
+.s19 > .d1 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.s20 > div {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+  margin: 30px;
+}
+
+.s20 > .d1 {
+  background-color: red;
+}
+.s20 > .d2 {
+  background-color: yellowgreen;
+}
+.s20 > .d3 {
+  background-color: aquamarine;
+}
+
+.s21 > div {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 30px;
+  color: green;
+}
+.s21 > .d1 > p {
+  background-color: yellow;
+  padding: 10px 30px;
+}
+.s21 > .d2 > p {
+  background-color: yellow;
+ padding: 10px 30px 10px 30px;
+}
+.s21 > .d3 > p {
+  background-color: yellow;
+ padding: 10px;
+}

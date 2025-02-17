@@ -1,6 +1,24 @@
-.s1{
-    background-color: red;
-    width: 150px;
-    height: 50px;
-    color : blue;
-}
+.s55 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: auto;
+  }
+  .s5 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: 200px 150px;
+  }
+  .s6 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: 60% 40%;
+  }
+  .s7 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: contain;
+  }
+  .s8 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: cover;
+  }
+  .s9 {
+    background: url("../images/bg4.jpg") no-repeat left top;
+    background-size: 100% 100%;
+  }
