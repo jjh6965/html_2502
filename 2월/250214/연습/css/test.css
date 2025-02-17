@@ -1,55 +1,15 @@
-body {
-  padding: 20px;
-}
+div.relative {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
 
-header {
-  border: 3px solid red;
+div.absolute {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
 }
-li {
-  border: 1px solid black;
-}
-
-ul {
-    border: 1px solid black;
-}
-nav {
-  border: 3px solid orange;
-}
-section {
-  border: 3px solid yellow;
-}
-article {
-  border: 3px solid green;
-}
-footer {
-  border: 3px solid blue;
-}
-
-.d1 {
-  display: flex;
-}
-
-/* .d1 > nav, */
-.d1 > article {
-  flex-basis: 100px;
-  flex-shrink: 0;
-}
-
-.n1 > ul> li{
-   display: inline-block; 
-   width: 300px;
-   height: 300px;
-   list-style-type: none;
-   margin: auto;
-   
-}
-
-.n1 > ul > li {
-    list-style-type: none;
-}
-
-.n1 > ul {
-    padding: 0;
-   
-}
-
