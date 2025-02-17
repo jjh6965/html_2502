@@ -56,14 +56,20 @@ document.getElementById("demo13").innerHTML = "예제13. "+ x6;
 let x7 = 5 + 2 + "3";
 document.getElementById("demo14").innerHTML = "예제14. "+ x7;
 
+// let $$$ = 2;
+// let $myMoney = 5;
+// document.getElementById("demo15").innerHTML = "예제15. "+ $$$ + $myMoney;
+// 문자가 first로 들어가서 문자열로 인식하여 25로 출력
+
 let $$$ = 2;
 let $myMoney = 5;
-document.getElementById("demo15").innerHTML = "예제15. "+ $$$ + $myMoney;
+document.getElementById("demo15").innerHTML = $$$ + $myMoney;
 
 let _x = 2;
 let _100 = 5;
 document.getElementById("demo16").innerHTML ="예제16. "+ _x + _100;
 
 
-let lid = 3;
-lid = 20;
+
+
+
