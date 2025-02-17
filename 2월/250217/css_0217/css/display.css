@@ -1,0 +1,40 @@
+div,
+ul,
+li,
+span,
+a {
+  border: 3px solid red;
+}
+
+.d1 > ul > li {
+  display: inline;
+  width: 300px;
+  height: 300px;
+}
+
+.d2 > span {
+  display: inline-block;
+ text-align: justify;
+}
+
+.d3 > a {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.d4 > .none {
+  display: none;
+}
+
+.d5 > .hidden {
+  visibility: hidden;
+}
+
+.item {
+    display: inline-block;
+    width: 200px; /* 너비 설정 */
+    height: 100px; /* 높이 설정 */
+    margin: 10px; /* 여백 설정 */
+    background-color: lightblue; /* 배경색 설정 */
+  }
