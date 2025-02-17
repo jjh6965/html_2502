@@ -65,8 +65,17 @@
 //  const num_3 = 50;
 //  document.write(num_3,"<br>");
 
-// var 1num = 10;
-var $num = 10;
+// // var 1num = 10;
+// var $num = 10;
 
-// var @num = 10;
-var num100 = 10;
+// // var @num = 10;
+// var num100 = 10;
+
+// var document =10;
+// var num = 10;
+
+var num = "hello";
+// var num = 10;
+
+// var num = 10; document.write(Num)
+// var num = 10; document.write(num)
