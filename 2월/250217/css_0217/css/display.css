@@ -14,7 +14,7 @@ a {
 
 .d2 > span {
   display: inline-block;
- text-align: justify;
+  text-align: justify;
 }
 
 .d3 > a {
@@ -32,9 +32,125 @@ a {
 }
 
 .item {
-    display: inline-block;
-    width: 200px; /* 너비 설정 */
-    height: 100px; /* 높이 설정 */
-    margin: 10px; /* 여백 설정 */
-    background-color: lightblue; /* 배경색 설정 */
-  }
+  display: inline-block;
+  width: 200px; /* 너비 설정 */
+  height: 100px; /* 높이 설정 */
+  margin: 10px; /* 여백 설정 */
+  background-color: lightblue; /* 배경색 설정 */
+}
+
+.alias {
+  cursor: alias;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.auto {
+  cursor: auto;
+}
+.cell {
+  cursor: cell;
+}
+.col-resize {
+  cursor: col-resize;
+}
+.context-menu {
+  cursor: context-menu;
+}
+.copy {
+  cursor: copy;
+}
+.crosshair {
+  cursor: crosshair;
+}
+.default {
+  cursor: default;
+}
+.e-resize {
+  cursor: e-resize;
+}
+.ew-resize {
+  cursor: ew-resize;
+}
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.help {
+  cursor: help;
+}
+.move {
+  cursor: move;
+}
+.n-resize {
+  cursor: n-resize;
+}
+.ne-resize {
+  cursor: ne-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
+.ns-resize {
+  cursor: ns-resize;
+}
+.nw-resize {
+  cursor: nw-resize;
+}
+.nwse-resize {
+  cursor: nwse-resize;
+}
+.no-drop {
+  cursor: no-drop;
+}
+.none {
+  cursor: none;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.pointer {
+  cursor: pointer;
+}
+.progress {
+  cursor: progress;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.s-resize {
+  cursor: s-resize;
+}
+.se-resize {
+  cursor: se-resize;
+}
+.sw-resize {
+  cursor: sw-resize;
+}
+.text {
+  cursor: text;
+}
+.url {
+  cursor: url(myBall.cur), auto;
+}
+.w-resize {
+  cursor: w-resize;
+}
+.wait {
+  cursor: wait;
+}
+.zoom-in {
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: zoom-out;
+}
+
+.d6 > p,
+.d6 > b {
+  margin-left: 20px;
+}
