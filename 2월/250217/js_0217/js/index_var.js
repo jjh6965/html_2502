@@ -38,7 +38,7 @@ document.getElementById("demo8").innerHTML = "예제8. "+carName1;
 
 let carName3;
 document.getElementById("demo9").innerHTML = "예제9. "+carName3;
-
+  
 var carName4 = "Volvo";
 
 var carName4;
@@ -47,7 +47,7 @@ document.getElementById("demo10").innerHTML = "예제10. "+ carName4;
 let x4 = 5 + 2 + 3;
 document.getElementById("demo11").innerHTML = "예제11. "+ x4;
 
-let x5 = "John" + " " + "Doe";
+let x5 = "John" + " "+ "Doe";
 document.getElementById("demo12").innerHTML = "예제12. "+ x5;
 
 let x6 = "5" + 2 + 3;
@@ -71,5 +71,8 @@ document.getElementById("demo16").innerHTML ="예제16. "+ _x + _100;
 
 
 
-
+let x9 = 3;
+let y9 = 10;
+let sum = x9+y9;
+document.getElementById("demo17").innerHTML =  "정답은"+" "+ sum + " "+ "입니다."
 
