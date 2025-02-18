@@ -175,36 +175,37 @@ document.getElementById("demo39").innerHTML = normal_w + "<br>";
 //()의 값을 선행 계산 후 normal_w 변수에  할당
 
 //적정 체중
-/*var name1 = prompt("당신의 이름은?", "");
-var height = prompt("당신의 신장은?", "0");
-var weight = prompt("당신의 체중은?", "0");
-//prompt창의 내용을 입력하여 변수에 할당
-var normal_n = (height - 100) * 0.9;
-var result = weight >= normal_n - 5 && weight <= normal_n + 5;
-result = result ? "적정 체중입니다." : "적정 체중이 아닙니다.";
-document.getElementById("demo40").innerHTML = name1 + " 님은 " + result
-//innerHTML은 입력 값은 가져올수 없다.
+// var name1 = prompt("당신의 이름은?", "");
+// var height = prompt("당신의 신장은?", "0");
+// var weight = prompt("당신의 체중은?", "0");
+// //prompt창의 내용을 입력하여 변수에 할당
+// var normal_n = (height - 100) * 0.9;
+// var result = weight >= normal_n - 5 && weight <= normal_n + 5;
+// result = result ? "적정 체중입니다." : "적정 체중이 아닙니다.";
+// /* document.getElementById("demo40").innerHTML = name1 + " 님은 " + result ;
+// innerHTML은 입력 값은 가져올수 없다.*/
 
-// normal_w 5차이로 크거나 같을때 = result
- document.write(name1+" 님은 "+result); */
+// // normal_w 5차이로 크거나 같을때 = result
+//  document.write(name1+" 님은 "+result); 
 
-//연습문제.1
- //만원 초과 시 000원 초과 아닐 경우 돈관리를 잘했어요!
- var price1 = 3000;
- //교통비
- var price2 = 6000;
- //식비
- var price3 = 1000;
- //음료비
- var priceal = price1 + price2 + price3 ;
- var pricen = priceal - 10000; 
- var result = priceal <= 10000 ? "돈관리를 잘했어요!" : pricen+"원 초과";
- document.write(result);
+// //연습문제.1
+//  //만원 초과 시 000원 초과 아닐 경우 돈관리를 잘했어요!
+//  var price1 = 3000;
+//  //교통비
+//  var price2 = 6000;
+//  //식비
+//  var price3 = 1000;
+//  //음료비
+//  var priceal = price1 + price2 + price3 ;
+//  var pricen = priceal - 10000; 
+//  var result = priceal <= 10000 ? "돈관리를 잘했어요!" : pricen+"원 초과";
+//  document.write(result);
 
-// var a = 1000;
-// var b = 1000;
-// var c = 1000;
-// var p = prompt("4분기 판매량은?", "");
-// var aver = (a + b + c) / 3;
-// var result = p >= aver ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다.";
+var a = 1000;
+var b = 1000;
+var c = 1000;
+var p = prompt("4분기 판매량은?", "");
+var aver = (a + b + c) / 3;
+var result = p >= aver ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다.";
 // document.write(result);
+console.log(result);

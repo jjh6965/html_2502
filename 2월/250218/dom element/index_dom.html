@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <link rel="stylesheet" href="./css/index_dom.css" />
+  </head>
+
+  <body>
+    <section class="s1">
+      <h3>예제.1 dom</h3>
+
+      <p id="intro">Finding HTML Elements by Id</p>
+      <p>This example demonstrates the <b>getElementsById</b> method.</p>
+      <hr />
+      <p id="demo1"></p>
+    </section>
+
+    <section class="s2">
+      <div id="main0">
+        <h3>예제.2 dom</h3>
+
+        <p>Finding HTML Elements by Tag Name.</p>
+        <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+        <hr />
+        <p id="demo2"></p>
+        <!-- <p id="demo22"></p> -->
+      </div>
+    </section>
+
+    <section class="s3">
+      <h3>예제.3 dom</h3>
+
+      <div id="main">
+        <p>Finding HTML Elements by Tag Name</p>
+        <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+      </div>
+      <hr />
+      <p id="demo3"></p>
+    </section>
+
+    <section class="s4">
+      <h3>예제.4 dom</h3>
+
+      <p>Finding HTML Elements by Class Name.</p>
+      <p class="intro4">Hello World!</p>
+      <p class="intro4">
+        This example demonstrates the <b>getElementsByClassName</b> method.
+      </p>
+      <hr />
+      <p id="demo4"></p>
+    </section>
+
+    <section class="s5">
+      <h3>예제.5 dom</h3>
+
+      <p>Finding HTML Elements by Query Selector</p>
+      <p class="intro5">Hello World!.</p>
+      <p class="intro5">
+        This example demonstrates the <b>querySelectorAll</b> method.
+      </p>
+      <hr />
+      <p id="demo5"></p>
+    </section>
+
+    <section class="s6">
+      <h2>예제.6 dom</h2>
+      <p>Finding HTML Elements Using <b>document.forms</b>.</p>
+
+      <form id="frm1" action="#">
+        First name: <input type="text" name="fname" value="Donald" /><br />
+        Last name: <input type="text" name="lname" value="Duck" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <p>These are the values of each element in the form:</p>
+
+      <p id="demo6"></p>
+    </section>
+
+    <section class="s7">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p id="demo7"></p>
+    </section>
+
+    <script src="./js/index_dom.js"></script>
+  </body>
+</html>
