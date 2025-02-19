@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom event</title>
+    <link rel="stylesheet" href="./css/domevent.css" />
+  </head>
+
+  <body onload="checkCookies5()">
+    <!-- 바디가 읽어졌을때 함수를 찾는다. -->
+    <section class="s1">
+      <h4>event-1</h4>
+      <p onclick="this.innerHTML='클릭 후'">클릭하기 전</p>
+      <!-- onclick이라는 함수(발생 이벤트)를 HTML에서 바로 적용 this는 변수는 매번 다르지만 this는 공통인 나
+      나의 innerHTML을 클릭 -->
+      <!-- this는 p태그의 지칭 , section 안에 this는 section -->
+    </section>
+
+    <section class="s2">
+      <h4>event-2</h4>
+      <p onclick="changeText(this)">클릭 전</p>
+     <h4 onclick="cht(this)">클릭 전2</h4>
+    </section>
+    <!-- p의 태그에 온클릭 이벤트가 발생할때 ct함수를 호출 -->
+
+    <section class="s3">
+      <h4>event-3</h4>
+      <p>Click the button to display the date.</p>
+      <button onclick="displayDate3(this)">The time is?</button>
+      <p id="p3"></p>
+      <h1 id="pp3"></h1>
+    </section>
+
+    <section class="s4">
+      <h4>event-4</h4>
+      <p>Click "Try it" to execute the displayDate() function.</p>
+      <button id="myBtn">버튼</button>
+      <!-- id가myBtn인 태그로 버튼을 생성 -->
+      <p id="p4"></p>
+    </section>
+
+    <section class="s5">
+      <h4>event-5</h4>
+      <p id="p5"></p>
+    </section>
+
+    <section class="s6">
+      <h4>event-6</h4>
+      Enter your name: <input type="text" id="fname6" oninput="upperCase()" />
+      <!-- oninput 입력을 할떄마다 발생하는 event 입력할떄마다 uppercase 함수를 호출한다. -->
+       <!-- 텍스트에 글자를 입력할떄마다 함수를 호출-->
+        <!-- oninput은 입력할떄마다 -->
+    </section>
+
+    <section class="s7">
+      <h4>event-7</h4>
+      Enter your name: <input type="text" id="fname7" onchange="upperCase1()" />
+    </section>
+    <!-- uppercase 속성은 입력이 다 끝난 이후에 함수를 호출한다. -->
+
+    <section class="s8">
+      <h4>event-8</h4>
+      <div class="d8" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                      <!-- 마우스를 위로 올렸다.       마우스를 밖으로 뻇다. -->
+        Mouse Over Me
+      </div>
+    </section>
+
+    <section class="s9">
+      <h4>event-9</h4>
+      <div class="d9" onmousedown="mDown(this)" onmouseup="mUp(this)">
+                <!-- 마우스의 세부적인 이벤트 클릭 = 다운(누름)과 업(띔) -->
+        Click Me
+      </div>
+    </section>
+
+    <script src="./js/domevent.js"></script>
+  </body>
+</html>
