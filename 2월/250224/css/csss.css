@@ -1,0 +1,230 @@
+/* section,
+div {
+  border: 2px solid blue;
+}
+
+.s1 > .d1 {
+  box-sizing: content-box;
+  border: 2px solid red;
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.s1 > .d2 {
+  box-sizing: border-box;
+  border: 2px solid red;
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  padding: 30px;
+}
+/* 박스 사이징 보더박스는 높이와 넓이에 맞춰 할당된다. */
+
+.s2 > img {
+  float: left;
+  margin: 15px;
+}
+
+.s2 > h1 {
+  /* clear: both; */
+}
+.s3 > .d1 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #ffd800;
+  float: left;
+}
+
+.s3 > .d2 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #0094ff;
+  float: left;
+}
+
+.s3 > .d3 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #00ff21;
+  float: left;
+}
+
+.s3 > .d4 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #ffffff;
+  float: right;
+}
+
+.s3,
+.s4 {
+  border: 2px dotted rebeccapurple;
+
+  height: 300px;
+}
+
+.s4 > .d1 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #ffd800;
+  float: left;
+}
+
+.s4 > .d2 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #0094ff;
+  float: right;
+}
+
+.s4 > .d3 {
+  padding: 20px;
+  margin-right: 10px;
+  background: #00ff21;
+  clear: both;
+}
+
+.s4 > .d4 {
+  padding: 20px;
+  margin-right: 10px;
+  background: black;
+  float: left;
+}
+
+.s5 {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.s5 > .header {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.s5 > .content {
+  width: 490px;
+  padding: 20px;
+  width: 570px;
+  height: 1190px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.s5 > .sidebar1 {
+  width: 150px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.s5 > .sidebar2 {
+  width: 150px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  float: right;
+}
+
+.s5 > .footer {
+  clear: both;
+  padding: 20px;
+}
+
+.s6 > .d1 {
+  width: 100px;
+  background: #ffd800;
+  margin-right: 10px;
+  padding: 20px;
+  float: left;
+}
+
+.s6 > .d2 {
+  position: relative;
+  left: -50px;
+  top: 30px;
+  width: 300px;
+  background: #0094ff;
+  padding: 20px;
+  float: left;
+}
+
+.s7 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.s7 > .d1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #0094ff;
+}
+
+#i1 {
+  background: red;
+  top: 0;
+  left: 0;
+}
+#i2 {
+  background: orange;
+  top: 0;
+  right: 0;
+}
+#i3 {
+  background: yellow;
+  bottom: 0;
+  left: 0;
+}
+#i4 {
+  background: green;
+  bottom: 0;
+  right: 0;
+}
+#i5 {
+  top: 100px;
+  left: 100px;
+}
+
+.s8 > .d1 {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background: #ff6a00;
+}
+
+.s8 > .d2 {
+  width: 400px;
+  line-height: 30px;
+}
+
+.s9 > img {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.visibility {
+  visibility: hidden;
+} 
+
+
+
+.s10 {
+  position: relative;
+  top :20px;
+  left : 20px;
+}
+.s10 > .i1 {
+  z-index: 1;
+}
+.s10 > .i2 {
+  z-index: 3;
+}
+.s10 > .i3 {
+  z-index: 1;
+}
