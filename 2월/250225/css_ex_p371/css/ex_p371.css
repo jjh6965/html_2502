@@ -1,0 +1,103 @@
+body {
+  background-color: palevioletred;
+}
+
+div {
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.d1 {
+  border: 1px solid black;
+  width: 800px;
+  height: auto;
+}
+
+.d2 {
+  width: 800px;
+  height: 200px;
+}
+
+.d2 {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 60px;
+}
+
+.d2 > .h2 {
+  text-align: right;
+  line-height: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+.d2 > .n2 {
+  background: black;
+  border-top: solid 5px orange;
+  margin: 60px -20px 0 -20px;
+  padding-bottom: 1px;
+}
+
+.d2 > .n2 > ul li {
+  display: inline;
+  padding: 5px;
+  margin: 0 50px;
+}
+.d2 > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.ar2 {
+  float: left;
+  width: 500px;
+  margin-left: -20px;
+  padding-right: 40px;
+}
+
+.as2 {
+  float: right;
+  width: 280px;
+  margin: 0 -20px;
+  padding-left: 20px;
+}
+
+.ar2 > img {
+  display: block;
+  width: 540px;
+  height: 300px;
+}
+
+.ar2 {
+  background-color: red;
+}
+.as2 {
+  background-color: white;
+}
+
+.as2 > img {
+  width: 300px;
+  height: 186.5px;
+  margin-left: -20px;
+  display: block;
+}
+
+.ar2-1 > iframe {
+  height: 500px;
+  width: 840px;
+}
+
+.ar2-1 {
+  clear: both;
+  margin-left: -20px;
+}
+
+.ft2 {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 820px;
+  margin-left: -20px;
+}
