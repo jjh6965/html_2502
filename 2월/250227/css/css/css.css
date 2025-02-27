@@ -1,0 +1,295 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+}
+.s1 {
+  border: 1px dotted red;
+}
+.s1 > ul {
+  border: 1px dotted red;
+}
+
+.s1 > ul > li {
+  border: 1px dotted red;
+}
+
+.s2 > h1 + ul {
+  color: orange;
+  font-weight: bold;
+}
+
+.s3 > h1 ~ ul {
+  color: yellow;
+  font-weight: bold;
+}
+/*지정 태그 이후 ~ 끝 태그까지 형제 */
+
+.s4 > h1 + p {
+  color: green;
+  font-weight: bold;
+}
+/* 닫히는 태그 다음 태그의 선택은 + */
+
+.s5 > ul li {
+  display: inline-block;
+  font-size: large;
+  margin-top: 20px;
+}
+
+/* 링크 언더바 지울떄는 a태그 까지 가자 */
+.s5 > ul > li > a[href] {
+  background-color: pink;
+  padding: 20px;
+  margin: 20px;
+}
+.s5 > ul > li > a {
+  color: white;
+}
+
+.s6 > ul > li > a[target="_blank"] {
+  padding-right: 30px;
+  background: url(/images/newwindow.png) no-repeat center right;
+}
+
+.s6 > ul > li {
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.s6 > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.s7 > ul li {
+  display: inline-block;
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: white 5px 5px;
+}
+
+.s7 > ul > .btn-7 {
+  background: skyblue;
+}
+.s7 > ul > .btn-7 > a {
+  color: white;
+  text-decoration: none;
+}
+.s7 > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.s8 > ul li,
+.s9 > ul li {
+  display: inline-block;
+}
+
+.s8 > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.s8 > ul > li > a[title="us"] {
+  background: url(/images/us.png) no-repeat left center;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+
+.s8 > ul > li > a[title="us-english"] {
+  background: url(/images/us.png) no-repeat left center;
+  padding: 5px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.s9 > ul > li > a[title^="eng"] {
+  background: url(/images/us.png) no-repeat left center;
+  padding: 5px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.s9 > ul > li > a[title^="jap"] {
+  background: url(/images/jp.png) no-repeat left center;
+  padding: 5px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.s9 > ul > li > a[title^="chin"] {
+  background: url(/images/ch.png) no-repeat left center;
+  padding: 5px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.s10 > ul > li {
+  list-style-type: square;
+}
+
+.s10 > ul > li > a[href$="hwp"] {
+  background: url(/images/hwp_icon.gif) no-repeat right center;
+  padding-right: 25px;
+  color: white;
+}
+
+.s10 > ul > li > a[href$="xls"] {
+  background: url(/images/excel_icon.gif) no-repeat right center;
+  padding-right: 25px;
+  color: white;
+}
+
+.s11 > ul > li {
+  list-style-type: circle;
+  margin: 20px;
+}
+
+.s11 > ul > li > [href*="w3"] {
+  background: blue;
+  color: white;
+}
+
+.s11 > ul > li > a {
+  text-decoration: none;
+  color: green;
+}
+
+.s12 > [class~="accent"] {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.s13 a:link,
+.s13 a:visited {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.s13 a:hover,
+.s13 a:focus {
+  background-color: white;
+  color: black;
+}
+
+.s13 > ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.s14 > fieldset > label > input:disabled {
+  background-color: green;
+  border: 2px solid red;
+}
+
+.s14 > fieldset > label > input:checked + span {
+  color: green;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: red;
+}
+
+tr:nth-child(2n) {
+  background-color: green;
+}
+
+table tr td {
+  padding: 20px 50px;
+}
+
+.s16 > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.s16 > ul > li {
+  list-style-type: none;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.s16 > ul li {
+  display: inline-block;
+  margin: 20px -6px -6px 0px;
+  padding: 20px 30px;
+}
+
+.s16 > ul li:first-child {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.s16 > ul li:last-child {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.s16 > ul > li:hover {
+  background-color: red;
+}
+
+.s16 > ul > li:hover > a {
+  color: white;
+}
+
+.s17 > ul li {
+  margin: 20px;
+}
+.s17 > ul > li.hot::after {
+  content: "new!";
+  font-size: x-small;
+  padding: 2px 4px;
+  margin: 0 10px;
+  border-radius: 2px;
+  background: red;
+  color: #fff;
+}
+
+.s18 > img:hover {
+  border: 10px solid red;
+}
+
+.s19 > div > ul li {
+  display: inline-block;
+  margin: 40px;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+.s19 > div {
+  border: 1px solid white;
+}
+
+.s19 > div > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.s19 > div > ul > li > a:active {
+  background: blue;
+  color: blue;
+}
+
+.s19 > div > ul > li > a:visited {
+  color: red;
+}
+
+.s19 > div > ul > li > a:hover {
+  color: green;
+}
