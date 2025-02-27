@@ -4,6 +4,7 @@ const p5 = document.querySelector("#p5");
 
 const s5 = document.querySelector(".s5");
 const s6 = document.querySelector(".s6");
+const s7 = document.querySelector(".s7");
 // window.open(
 //   "https://www.w3schools.com/",
 //   "w3schools",
@@ -78,9 +79,20 @@ s5.innerHTML += "모니터 해상도 높이: " + sc_h + "px" + "<br>";
 
 /////////////////////////예제.6////////////////////////////////////////
 var phoneNum = "010-2345-1234";
-var result_1 = phoneNum.substring(0,9);
+var result_1 = phoneNum.substring(0, 9);
 s6.innerHTML = result_1 + "****" + "<br>";
 
 var imgSrc = "images/bnt_out.jpg";
-var result_2 = imgSrc.replace("out","over");
-s6.innerHTML += result_2 ;
+var result_2 = imgSrc.replace("out", "over");
+s6.innerHTML += result_2;
+
+////////////////////////예제.7///////////////////////////
+var menu = ["짜장면", "돈가스", "된장국", "김치찌개", "회덮밥"];
+
+var menuRan = Math.random();
+
+var menuNum = Math.floor(menuRan * menu.length);
+
+var result_3 = menu[menuNum];
+
+s7.innerHTML = result_3;
