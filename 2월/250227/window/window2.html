@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>팝업 페이지</h1>
+    <section class="s2">
+      <img
+        src="./images/window_object_1.jpg"
+        usemap="#intro"
+        alt="이미지 파일"
+      />
+      <map name="intro" id="intro">
+        <area
+          shape="rect"
+          coords="230,368,280,390"
+          href="#"
+          alt="창 닫기"
+          onclick="window.close();"
+        />
+      </map>
+    </section>
+    <script src="./js/window2.js"></script>
+  </body>
+</html>
